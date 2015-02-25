@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="需要加密的明文" />
+
+    <EditText
+        android:id="@+id/jiamimingwen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="AES加密密钥" />
+
+    <EditText
+        android:id="@+id/jiamiKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/jiamibutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="加密" />
+
+    <TextView
+        android:id="@+id/miwen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="密文" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="10mm" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="AES解密密钥" />
+
+    <EditText
+        android:id="@+id/jiemiKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/jiemibutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="解密" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="解密明文" />
+
+    <EditText
+        android:id="@+id/jiemimingwen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

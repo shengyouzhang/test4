@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SYFrameJni</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="android.aes.AesAct">android/a24jni/aes/AesAct</string>
+    <string name="android.assets.AssetAct">android/a24jni/assets/AssetAct</string>
+    <string name="android.hello.c.HelloCAct">android/a24jni/hello/c/HelloCAct</string>
+    <string name="android.hello.cpp.HelloCppCAct">android/a24jni/hello/cpp/HelloCppCAct</string>
+    <string name="android.mutual.javacallc.JavacallcAct">android/a24jni/mutual/javacallc/JavacallcAct</string>
+    <string name="android.mutual.ccalljava.CcalljavaAct">android/a24jni/mutual/ccalljava/CcalljavaAct</string>
+
+</resources>

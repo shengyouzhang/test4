@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zsy.frame.sample.jni"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zsy.frame.sample.jni.control.base.JNIMainAct"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zsy.frame.sample.jni.control.android.aes.AesAct"
+            android:label="@string/android.aes.AesAct" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.zsy.frame.sample.jni.control.android.assets.AssetsAct"
+            android:label="@string/android.assets.AssetAct" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.zsy.frame.sample.jni.control.android.hello.c.HelloCAct"
+            android:label="@string/android.hello.c.HelloCAct" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.zsy.frame.sample.jni.control.android.hello.cpp.HelloCppCAct"
+            android:label="@string/android.hello.cpp.HelloCppCAct" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.zsy.frame.sample.jni.control.android.mutual.javacallc.JavacallcAct"
+            android:label="@string/android.mutual.javacallc.JavacallcAct" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.zsy.frame.sample.jni.control.android.mutual.ccalljava.CcalljavaAct"
+            android:label="@string/android.mutual.ccalljava.CcalljavaAct" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
